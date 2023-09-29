@@ -1,1 +1,1 @@
-update
+Second pointers arrays strings
