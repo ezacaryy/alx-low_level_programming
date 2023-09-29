@@ -1,1 +1,1 @@
-FIRST RWADME
+Pointers arrays trings Readme
