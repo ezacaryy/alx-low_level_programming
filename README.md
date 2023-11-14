@@ -1,2 +1,2 @@
-Nothing to reade
+Nothing to read
 in this readme file
