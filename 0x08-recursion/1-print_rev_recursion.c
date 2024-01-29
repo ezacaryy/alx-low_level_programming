@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * _puts_recursion - function like puts();
- * @s: input
- * Return: Always 0 (Success)
+ *  * _strlen_recursion - Returns the length of a string.
+ * @s: The string to be measured.*
+ * Return: The length of the string.
  */
-void _puts_recursion(char *s)
+int _strlen_recursion(char *s)
 {
-	if (*s == '\0')
-	{
-		_putchar('\0');
-	}
+	int length = 0;
 
-	else
-        {
-		_putchar(*s');
-                _puts_recursion(s + 1);
-        }
+	if (*s)
+	{
+		length++;
+		length += _strlen_recursion(s + 1);
+	}
+	return (length);
 }
