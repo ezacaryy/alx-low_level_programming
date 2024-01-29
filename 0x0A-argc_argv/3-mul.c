@@ -1,22 +1,25 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
- * Return: the int converted from the string
- */
+ * main - program that multiplies two numbers.
+ * @argc: number of arguments
+ * @argv: array with the arguments
+ *
+ * Return: always 0
+ **/
 
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int mult = 0;
+	char c[] = "Error";
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		printf("%s\n", c);
 		return (1);
 	}
-	a = _atoi(argv[1]);
-	b = _atoi(argv[2]);
-	printf("%d\n", a * b);
+	mult = atoi(argv[1]) * atoi(argv[2]);
+	printf("%i\n", mult);
 	return (0);
 }
