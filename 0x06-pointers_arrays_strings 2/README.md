@@ -1,1 +1,0 @@
-Second pointers arrays strings
